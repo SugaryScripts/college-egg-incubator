@@ -78,7 +78,9 @@ void testDimmer(){/* function testDimmer */
   }
 }
 
-void setDimmer(int power, )
+void runFuzzy(){
+
+}
 
 void setup() {
   // initialize Temperature
@@ -99,7 +101,6 @@ void setup() {
 
 void loop() {
   setLCD();
-  
 
   updateSeconds();
 }
