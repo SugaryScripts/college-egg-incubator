@@ -78,6 +78,14 @@ void testDimmer(){/* function testDimmer */
   }
 }
 
+
+// RPM with IR SENSOR
+volatile byte rpmcount;
+unsigned int rpm;
+unsigned long timeold; 
+
+
+
 void runFuzzy(){
 
 }
